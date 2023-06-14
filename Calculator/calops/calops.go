@@ -53,7 +53,7 @@ func Math(p_num1 float32, p_opr string, p_num2 float32) float32 {
 
 }
 
-// confirms if p_opr contains desired operation symbol[+ - * /]
+// confirms if p_opr contains desired operation symbol[+ - * / %]
 func contains(p_arr []string, p_symbol string) bool {
 
 	for _, v_val := range p_arr {
